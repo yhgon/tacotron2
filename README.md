@@ -17,7 +17,7 @@ Distributed and FP16 support relies on work by Christian Sarofeen and NVIDIA's
 
 ## Setup
 1. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/)
-2. Clone this repo: `git clone https://github.com/yhgon/tacotron2.git`
+2. Clone this repo: `git clone https://github.com/NVIDIA/tacotron2.git`
 3. CD into this repo: `cd tacotron2`
 4. Update .wav paths: `sed -i -- 's,DUMMY,ljs_dataset_folder/wavs,g' filelists/*.txt`
 5. Install [pytorch 0.4](https://github.com/pytorch/pytorch)
