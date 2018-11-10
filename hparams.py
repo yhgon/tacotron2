@@ -39,7 +39,7 @@ def create_hparams(hparams_string=None, verbose=False):
         win_length=1024,
         n_mel_channels=80,
         mel_fmin=0.0,
-        mel_fmax=None,  # if None, half the sampling rate
+        mel_fmax=800,  # if None, half the sampling rate
 
         ################################
         # Model Parameters             #
